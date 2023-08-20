@@ -5,3 +5,5 @@
 3. to to [slugyfy for make reppo name] (https://slugify.online/)
 4. different between print and echo, print add 1(9-12 example on dndex page)
 5. constant define function on line 24 in index.php
+6. const is variable
+7. variable is local
