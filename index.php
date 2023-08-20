@@ -15,5 +15,10 @@
 //echo str_word_count("Hello world");
 //echo strrev("Hello world");
 
+// echo pi();
+// echo min(1, 52, 88, 96);
+// echo max(1, 52, 88, 96);
+// echo sqrt(65);
+// echo rand(10, 20);
 
 ?>
