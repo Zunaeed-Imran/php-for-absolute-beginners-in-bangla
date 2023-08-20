@@ -10,4 +10,8 @@
 // print $food;
 // $foods = print("Drinks");
 // echo $foods;
+
+//echo strlen("Hello world");
+
+
 ?>
