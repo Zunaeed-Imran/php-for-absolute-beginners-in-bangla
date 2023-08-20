@@ -5,4 +5,9 @@
 // $name = "Imran";
 // $num = 12.3;
 // var_dump($num);
+
+// $food = "pizza";
+// print $food;
+// $foods = print("Drinks");
+// echo $foods;
 ?>
