@@ -21,4 +21,6 @@
 // echo sqrt(65);
 // echo rand(10, 20);
 
+define('a', '960');
+echo a;
 ?>
