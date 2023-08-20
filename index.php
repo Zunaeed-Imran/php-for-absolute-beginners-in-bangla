@@ -21,6 +21,9 @@
 // echo sqrt(65);
 // echo rand(10, 20);
 
-define('a', '960');
-echo a;
+// define('a', '960');
+// echo a;
+// define('car', ['toyota', 'bmw', 'ferari']);
+// echo car[0];
+
 ?>
