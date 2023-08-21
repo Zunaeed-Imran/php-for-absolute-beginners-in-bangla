@@ -1,17 +1,20 @@
 <?php
 
 class phone{
-  var $model;
+  // var $model;
 
   function phoneModel($number){
-    global $model;
-    $model = $number;
-    echo "this is $model <br>";
+    // global $model;
+    // $model = $number;
+    // echo "this is $model <br>";
+    echo "this is $number <br>";
   }
 }
-$apple = new phone;
-$apple-> phoneModel('iPhone 14');
 
-$apple = new phone;
-$apple-> phoneModel('Nokia X2');
+$apple = new phone();
+$apple->phoneModel('iPhone 14');
+
+$nokia = new phone();
+$nokia->phoneModel('Nokia X2');
+
 ?>
