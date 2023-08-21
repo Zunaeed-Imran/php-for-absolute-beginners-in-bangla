@@ -11,4 +11,6 @@
 2. example php variable
   ##### variable is case sensitive
   ##### we can't use &,%,! etc in variable.
+  ##### we can't start  variable with number.
+  ##### variable should be meaningful
 
