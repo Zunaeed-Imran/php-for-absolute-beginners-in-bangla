@@ -8,4 +8,5 @@
 ### const is variable
 ### variable is local
 1. example php syntax
+2. example php variable
 
