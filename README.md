@@ -10,4 +10,5 @@
 1. example php syntax
 2. example php variable
   ##### variable is case sensitive
+  ##### we can't use &,%,! etc in variable.
 
