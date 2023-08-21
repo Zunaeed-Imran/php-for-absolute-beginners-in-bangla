@@ -26,9 +26,13 @@
 // define('car', ['toyota', 'bmw', 'ferari']);
 // echo car[0];
 
-$x = 10;
-$y = 20;
-$x = $y;
-echo $x;
+// $x = 10;
+// $y = 20;
+// $x = $y;
+// echo $x;
+
+for($i = 10; $i >= 0; $i--){
+  echo $i.'<br>';
+}
 
 ?>
