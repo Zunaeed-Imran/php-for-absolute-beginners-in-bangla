@@ -35,11 +35,16 @@
 //   echo $i.'<br>';
 // }
 
-$x = 0;
-do{
- echo $x.'<br>';
- $x++;
-}while($x <= 100)
+// $x = 0;
+// do{
+//  echo $x.'<br>';
+//  $x++;
+// }while($x <= 100)
 
+// function test2($name, $age = 2){
+//   echo "this is {$name}<br>";
+//   echo "and my age is {$age}<br>";
+// }
+// test2('ruham');
 
 ?>
