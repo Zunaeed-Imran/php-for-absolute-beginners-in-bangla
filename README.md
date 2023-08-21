@@ -7,3 +7,4 @@
 5. constant define function on line 24 in index.php
 6. const is variable
 7. variable is local
+8. fixing
