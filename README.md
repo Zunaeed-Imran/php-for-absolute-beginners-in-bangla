@@ -7,4 +7,5 @@
 # constant define function on line 24 in index.php
 # const is variable
 # variable is local
+1. example php syntax
 
