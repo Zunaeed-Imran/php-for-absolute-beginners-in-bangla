@@ -7,5 +7,10 @@ $name = "imran"; // same as double quot
 $age = 26; // integer
 $age2 = 26.3; // float
 
-var_dump($age2);
+$religion = true;  // boolean
+
+$fruits = array('apple', 'mango', 'banana');  // array
+
+
+var_dump($fruits);
 ?>
