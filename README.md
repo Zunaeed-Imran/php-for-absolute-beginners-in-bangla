@@ -18,4 +18,4 @@
 5. simple object example in number 5 {Learn from Julius Brother}
 6. string (show some string built_in function)
 7. number show some build in number function
-8. 
+8. constant using define function
