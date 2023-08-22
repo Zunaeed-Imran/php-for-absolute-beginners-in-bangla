@@ -20,3 +20,5 @@
 7. number show some build in number function
 8. constant using define function
 9. Operator is like +, -, *, /
+10. assignment operator
+11. comparison operator
