@@ -1,13 +1,13 @@
 <?php
 
 class phone{
-  // var $model;
+   var $model;
 
   function phoneModel($number){
-    // global $model;
-    // $model = $number;
-    // echo "this is $model <br>";
-    echo "this is $number <br>";
+     global $model;
+     $model = $number;
+     echo "this is $model <br>";
+
   }
 }
 
