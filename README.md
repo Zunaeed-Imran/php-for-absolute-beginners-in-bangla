@@ -13,4 +13,7 @@
   ##### we can't use &,%,! etc in variable.
   ##### we can't start  variable with number.
   ##### variable should be meaningful
-3. Data type 
+3. Data type example in number three
+4. object example
+5. simple object example in number 5 {Learn from Julius Brother}
+6. 
