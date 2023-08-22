@@ -13,4 +13,4 @@
   ##### we can't use &,%,! etc in variable.
   ##### we can't start  variable with number.
   ##### variable should be meaningful
-
+3. Data type 
