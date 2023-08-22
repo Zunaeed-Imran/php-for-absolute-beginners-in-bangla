@@ -56,6 +56,11 @@
 // $airBut = new myNumber();
 // $airBut->myPhone("Nothing Air1")
 
-
-
+class test3{
+    function test4($test5){
+        echo "This is $test5.<br>";
+    }
+}
+$test6 = new test3();
+$test6->test4("This is nothing");
 ?>
