@@ -10,7 +10,8 @@ $age2 = 26.3; // float
 $religion = true;  // boolean
 
 $fruits = array('apple', 'mango', 'banana');  // array
+$empty = null;  // it's an empty value
 
+var_dump($empty);
 
-var_dump($fruits);
 ?>
