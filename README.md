@@ -2,7 +2,7 @@
 
 #### first we create a repository
 #### than copy the name of tutorial 
-#### to to [slugyfy for make reppo name] (https://slugify.online/)
+#### [slugyfy for make reppo name](https://slugify.online/)
 #### different between print and echo, print add 1(9-12 example on dndex page)
 #### constant define function on line 24 in index.php
 ### const is variable
