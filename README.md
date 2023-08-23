@@ -24,3 +24,4 @@
 11. comparison operator
 12. if else condation
 13. switch statement
+14. while loop
