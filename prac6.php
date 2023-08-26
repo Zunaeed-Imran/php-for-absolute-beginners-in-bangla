@@ -19,7 +19,7 @@
 <?php
 
 class po{
-    function panda($a, $b, $symbol){
+    function panda($a, $b, $symbol){              // this is a calculator practice project
         if(isset($_REQUEST['submit'])){
             if($symbol == '+'){
                 echo $a + $b;
