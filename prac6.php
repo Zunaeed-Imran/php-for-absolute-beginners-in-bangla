@@ -21,7 +21,7 @@
 class cal{
     function all($a, $b){
 
-        if($_REQUEST['']){
+        if(isset($_REQUEST['submit'])){
             echo "Select any Operate";
         }elseif($_REQUEST['+']){
             echo $a + $b;
@@ -34,6 +34,7 @@ class cal{
         }
     }
 }
-
+$testCal = new cal();
+$testCal->all(20, 20);
 
 ?>
