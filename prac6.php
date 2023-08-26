@@ -11,30 +11,22 @@
         <input type="number" name="num2" placeholder="Enter 2nd number"><br>
         <input type="symbol" name="symbol" placeholder="Enter any Symbil"><br>
 
-        <button type="submit">Submit</button>
+        <button type="submit" name="submit">Submit</button>
     </form>
 </body>
 </html>
 
 <?php
 
-class cal{
-    function all($a, $b){
-
+class po{
+    function panda($a, $b, $symbol){
         if(isset($_REQUEST['submit'])){
-            echo "Select any Operate";
-        }elseif($_REQUEST['+']){
-            echo $a + $b;
-        }elseif($_REQUEST['-']){
-            echo $a - $b;
-        }elseif($_REQUEST['*']){
-            echo $a * $b;
-        }elseif($_REQUEST['/']){
-            echo $a / $b;
+            if($symbol === '+'){
+                echo $a + $b;
+            }
         }
     }
 }
-$testCal = new cal();
-$testCal->all(20, 20);
+
 
 ?>
