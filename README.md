@@ -29,3 +29,5 @@
 15. do while loop
 16. for loop
 17. date and time
+18. Function
+#### Practice some my own in prac1 branch
