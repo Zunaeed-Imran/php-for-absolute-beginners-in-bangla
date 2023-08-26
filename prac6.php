@@ -9,6 +9,16 @@
     <form action="prac6.php" method="get">
         <input type="number" name="num1" placeholder="Enter 1st number"><br>
         <input type="number" name="num2" placeholder="Enter 2nd number"><br>
+        <input type="symbol" name="symbol" placeholder="Enter any Symbil"><br>
+
+        <select name="operate">
+            <option value="">None</option>
+            <option value="+">Addition</option>
+            <option value="-">Subtraction</option>
+            <option value="*">Multiplacation</option>
+            <option value="/">Division</option>
+        </select>
+
         <button type="submit">Submit</button>
     </form>
 </body>
@@ -19,7 +29,19 @@
 class cal{
     function all($a, $b){
 
+        if($_REQUEST['']){
+            echo "Select any Operate";
+        }elseif($_REQUEST['+']){
+            echo $a + $b;
+        }elseif($_REQUEST['-']){
+            echo $a - $b;
+        }elseif($_REQUEST['*']){
+            echo $a * $b;
+        }elseif($_REQUEST['/']){
+            echo $a / $b;
+        }
     }
 }
+
 
 ?>
