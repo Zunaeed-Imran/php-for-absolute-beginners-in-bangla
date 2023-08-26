@@ -21,12 +21,21 @@
 class po{
     function panda($a, $b, $symbol){
         if(isset($_REQUEST['submit'])){
-            if($symbol === '+'){
+            if($symbol == '+'){
                 echo $a + $b;
+            }elseif($symbol == '-'){
+                echo $a - $b;
+            }elseif($symbol == '*'){
+                echo $a * $b;
+            }elseif($symbol == '/'){
+                echo $a / $b;
+            }else{
+                echo('Enter correct Symbol');
             }
         }
     }
 }
-
+$calculator = new po();
+$calculator->panda($_REQUEST['$a'], $_REQUEST['$b'], $_REQUEST['$symbol']);
 
 ?>
