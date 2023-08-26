@@ -36,6 +36,12 @@ class po{
     }
 }
 $calculator = new po();
-$calculator->panda($_REQUEST['$a'], $_REQUEST['$b'], $_REQUEST['$symbol']);
+
+if(isset($_REQUEST['num1']) && isset($_REQUEST['num2']) && isset($_REQUEST['symbol'])){
+    $num1 = $_REQUEST['num1'];
+    $num2 = $_REQUEST['num2'];
+    $symbol = $_REQUEST['symbol'];
+    $calculator->panda($num1, $num2, $symbol);
+}
 
 ?>
