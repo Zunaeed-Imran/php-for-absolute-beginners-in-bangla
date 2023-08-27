@@ -32,3 +32,4 @@
 18. Function
 #### Practice some my own in prac1 branch
 06. prac6 // have practic a calculator in other branch "prac1" branch
+10. prac10 // have practice multipale case in switch statement "prac10" branch "prac10"
